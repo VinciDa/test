@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>6Degree</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/Favicon - 6D.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/questionnaire-3.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="." class="box">
+                    <img class="degree-seller-image" src="assets/6DEGREE_tm_logo_ Colou_crr-bg.png">
+                </a>
+                <p class="fashion-wings">Give your fashion<br>
+                    design career<br>
+                    Wings!</p>
+                <p class="fashion-wings-subheading">Answer these questions quickly to register<br>
+                    with us...</p>
+            </div>
+
+
+
+
+
+            <div class="col-md-8">
+                <form name="formFileds" onsubmit="return myTirdFunction()" method="POST"
+                    action="https://script.google.com/macros/s/AKfycbwMZDgwMfKogCXEXFefhOhMbZHhd7kHLNlvQMAnNw/exec">
+                    <div class="square">
+                        <div class="row">
+                            <a href="questionnaire-2.html">
+                                <i class="fa fa-2x fa-chevron-circle-left arrow"></i>
+                            </a>
+                            <p class="step">step 3 of 3</p>
+                        </div>
+
+                        <p class="brand-name">Current Annual Sales</p>
+                        <p class="range">Range:<span id="sales-output"></span> <span> Lakhs</span></p>
+                        <input class="slider" type="range" min="10" max="45" onclick="sales()" value="20"
+                            name="salesRange" id="sales-range">
+
+
+                        <p class="brand-name">Anticipated growth</p>
+                        <p class="range">Percentage: <span id="growth-output"></span> <span>%</span></p>
+                        <input class="slider" type="range" min="0" max="100" value="20" onclick="growth()"
+                            name="Percentage Growth" id="growth-range">
+                        <!-- display none items -->
+                        <div style="display: none;">
+                            <input class="brand" type="text" id="brandname" name="Brand">
+                            <input class="insta" type="text" id="instagram" name="Instagram">
+                            <input class="face" type="text" id="facebook" name="Facebook">
+                            <input class="male-gender" type="text" id="male-gender" name="Male Audience">
+                            <input class="female-gender" type="text" id="female-gender" name="Female Audience">
+                            <input class="kids-gender" type="text" id="kids-gender" name="Kids Audience">
+                            <input class="age" type="text" id="age-range" name="Age Range">
+                            <input class="geo" type="text" id="metro" name="Metro">
+                            <input class="geo" type="text" id="tier1" name="Tier1">
+                            <input class="geo" type="text" id="tier2" name="Tier2">
+                            <input class="geo" type="text" id="international" name="International">
+                        </div>
+                        <!--  -->
+
+
+
+
+                        <p class="brand-name">Contact Information</p>
+                        <div class="row">
+
+                            <div class="col-5 col-sm-5 col-md-6 col-lg-5 col-xl-3">
+
+                                <input class="mobile" type="number" placeholder="|  Mobile Number" id="mbileno"
+                                    name="mobile" required>
+
+                            </div>
+
+                            <div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-9">
+
+                                <input class="mobile" type="text" placeholder="|  Email Address" id="emailaddress"
+                                    name="email" required>
+                                <span style="color: red;" id="errormsg"></span>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-6 col-sm-6 col-md-6 col-lg-5 col-xl-3">
+                                <a href="thank-you.html"><button class="next" type="submit" value="submit"
+                                        onclick="return response()">Next
+                                        <img src="assets/icon-chevron.svg"></button></a>
+                            </div>
+                            <!-- 
+                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-9">
+                                <a class="or-press-enter" href="register.html">or press Enter</a>
+                            </div> -->
+                        </div>
+                        <span style="color: red; margin-left: 60px;" id="errormsg1"></span>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<script src="javascript/questionnaire-3.js"></script>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>6Degree</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/Favicon - 6D.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/questionnaire-2.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="." class="box">
+                    <img class="degree-seller-image" src="assets/6DEGREE_tm_logo_ Colou_crr-bg.png">
+                </a>
+                <p class="fashion-wings">Give your fashion<br>
+                    design career<br>
+                    Wings!</p>
+                <p class="fashion-wings-subheading">Answer these questions quickly to register<br>
+                    with us...</p>
+            </div>
+
+
+
+
+
+            <div class="col-md-8">
+                <div class="square">
+                    <div class="row">
+                        <a href="questionnaire.html">
+                            <i class="fa fa-2x fa-chevron-circle-left arrow"></i>
+                        </a>
+                        <p class="step">step 2 of 3</p>
+                    </div>
+
+                    <p class="brand-name">Define your target audience</p>
+
+                    <p class="gender">Gender</p>
+                    <form name="form1">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="radio-tab">
+                                    <input type="radio" id="1" name="m-gender" value="male" onclick="maleGender()">
+                                    <label class="label" for="male">Male</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="radio-tab">
+                                    <input type="radio" id="1" name="fm-gender" value="female" onclick="femaleGender()">
+                                    <label class="label" for="female">Female</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="radio-tab">
+                                    <input type="radio" id="1" name="kids-gender" value="kids" onclick="kidsGender()">
+                                    <label class="label" for="female">Kids</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="radio-tab">
+                                    <input type="radio" id="all" name="all" value="all" onclick="selectAll(form1)">
+                                    <label class="label" for="all">All</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <p class="gender">Age Group</p>
+
+                    <p class="range">Range: 10 - <span id="range-output"></span>Age </p>
+                    <input class="slider" type="range" min="10" max="45" value="20" onclick="ageSelect()"
+                        id="age-range">
+
+                    <p class="gender">Geography</p>
+                    <form name="form2">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="radio-tab">
+                                    <input type="radio" id="1" name="metro" value="metro"
+                                        onclick="geographySelect(this.value)">
+                                    <label class="label" for="metro">Metro</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="radio-tab">
+                                    <input type="radio" id="1" name="tier1" value="tier1"
+                                        onclick="geographySelect(this.value)">
+                                    <label class="label" for="tier1">Tier1</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="radio-tab">
+                                    <input type="radio" id="1" name="tier2" value="tier2"
+                                        onclick="geographySelect(this.value)">
+                                    <label class="label" for="tier2">Tier2</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="radio-tab">
+                                    <input type="radio" id="1" name="international" value="international"
+                                        onclick="geographySelect(this.value)">
+                                    <label class="label" for="international">International</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="radio-tab">
+                                    <input type="radio" id="all" name="geoAll" value="all"
+                                        onclick="selectGeographyAll(form2)">
+                                    <label class="label" for="all">All</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-5 col-xl-3">
+                            <a href="questionnaire-3.html"><button class="next" onclick="return mySecondFunction()">Next
+                                    <img src="assets/icon-chevron.svg"></button></a>
+                        </div>
+                        <!-- 
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-9">
+                            <p class="or-press-enter">or press Enter</p>
+                        </div> -->
+                    </div>
+                    <span style="margin-left: 60px; color: red;" id="errormsg"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<script src="javascript/questionnaire-3.js"></script>
+
+
+</html>

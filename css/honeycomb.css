@@ -1,0 +1,704 @@
+.header{
+  padding: 30px 10px 30px 10px;
+}
+
+.logo{
+  width: 200px;
+}
+
+.back {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    width: 80px;
+    height: 38px;
+    border-radius: 30px;
+    font-family: 'sofia-pro';
+    outline: 0 !important;
+    position: absolute;
+    margin: 30px 0px 0px 35px;
+}
+
+.back:hover{
+    color: lightgray
+} 
+
+.back-btn{
+    display: none;
+}
+
+.rectangle-first {
+    background: url(../assets/line_mask.svg);
+    background-color: #FFF9EB;
+    width: 100vw;
+  }
+  
+.line-mask{
+    position: absolute;
+    width: auto;
+    height: 400px;
+    z-index: 0;
+    margin-top: 220px;
+}
+
+.grow-your {
+    color: #193E6C;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'sofia-pro';
+    padding-top: 100px;
+    z-index: 2;   
+}
+
+
+.register-with-us {    
+    background-color: #0074FF;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'sofia-pro';
+    width: 240px;
+    height: 54px;
+    margin-right: 105px;
+    margin-left: 25px;
+    z-index: 2;
+    outline: 0 !important;
+}
+
+.arrow {
+    width: 100px;
+    z-index: 0;
+}
+
+.trusted-and-lovely {
+    margin-top: 20px;
+    color: #3C3C3C;
+    font-family: 'sofia-pro';
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.gaurang-logo{
+    width: 150px;
+    padding-bottom: 60px;
+}
+
+.gaurang {  
+    width: 175px;
+    padding-bottom: 60px;
+}
+
+.get-started {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #193E6C;
+    margin-top: 50px;
+    font-family: 'sofia-pro';
+}
+
+.get-started-subheading {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #193E6C;
+    font-family: 'sofia-pro';
+}
+
+.inventory {
+    color: #193E6C;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 115px;
+}
+
+.inventory-subheading {
+    color: #193E6C;
+    font-size: 16px;
+    font-weight: 600;
+    width: 450px;
+    margin-bottom: 100px;
+}
+
+.track {
+    color: #193E6C;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 115px;
+}
+
+.track-subheading {
+    color: #193E6C;
+    font-size: 16px;
+    font-weight: 600;
+    width: 450px;
+    margin-bottom: 100px;
+}
+
+.product-image {
+    width: 600px;
+ }
+
+ .info-box-honeycomb {
+    display: flex; 
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+    
+  .honey-is-here {
+    text-align: center;
+    color: #193E6C;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+    font-family: 'sofia-pro';
+}
+
+.honey-is-here-subheading {
+    text-align: center;
+    color: #193E6C;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'sofia-pro';
+    margin-bottom: 50px;
+}
+
+
+
+.validate {
+    color: #193E6C;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'sofia-pro';
+}
+   
+ .validate-subheading {
+    color: #193E6C;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;  
+    font-family: 'sofia-pro'; 
+ }
+
+ .selling {
+    height: 400px;
+}
+
+ .platform {
+    font-family: 'sofia-pro';
+    font-size: 30px;
+    font-weight: 600;
+    color:  #193E6C;
+    margin-top: 80px;
+}
+
+.business-growth-heading {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #193E6C;
+    font-family: 'sofia-pro';
+  }
+
+.business-subheading {
+    color: #193E6C;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'sofia-pro';
+    width: 230px;
+    text-align: center;
+}
+
+.business-growth-img{
+    width: 150px;
+    height: auto;
+}
+
+.brand-img{
+    height: 234px;
+    margin-top: -18px;
+}
+
+.rectangle-footer{
+    background: url(../assets/wave_mask.svg);
+    background-color: #FFF9EB;
+}
+
+
+.honeycomb-img{
+    max-width: 800px;
+}
+
+.getting-started {
+    color: #193E6C;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 75px;
+    font-family: 'sofia-pro';
+    padding-top: 50px;
+}
+
+.the-time {
+    color: #193E6C;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'sofia-pro';
+}
+
+.register-with-us-row{
+    margin-top: 20px;
+}
+
+.orders {
+    width: 600px;
+    height: auto;
+}
+
+.enroll-now {
+    margin-top: 20px;
+    margin-bottom: 150px;
+    width: 130px;
+    height: 45px;
+    background-color: #0074FF;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'sofia-pro';
+    font-weight: 500;
+    border-radius: 22px;
+    border: none;
+    outline: 0 !important;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-box{
+    display: flex; 
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.all-rights-reserved {
+    color: #193E6C;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'sofia-pro';
+}
+
+.product {
+    color: #193E6C;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'sofia-pro';
+}
+
+.footer-label{
+    font-family: 'sofia-pro';
+    font-size: 14px;
+    color: #193E6C;
+    font-weight: 300;
+    width: 200px;
+}
+.facebook {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.instagram {
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+}
+
+.twitter {
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+}
+
+.footer-degree-logo{
+    width: 150px;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1124px) {
+
+    .honeycomb-img {
+        max-width: 750px;
+    }
+
+    .inventory {
+        color: #193E6C;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+    
+    .track {
+        color: #193E6C;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .back {
+        display: none;
+    }
+
+    .back-btn{
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+        width: 60px;
+        height: 38px;
+        border-radius: 30px;
+        outline: 0 !important;
+        position: absolute;
+        margin: 40px 0px 0px 35px;
+        display: block;
+    }
+    
+    
+.grow-your {
+    color: #193E6C;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'sofia-pro';
+    padding-top: 100px;
+    z-index: 2;   
+}
+
+.trusted-and-lovely {
+    margin-top: 20px;
+    color: #3C3C3C;
+    font-family: 'sofia-pro';
+    font-size: 14px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.line-mask{
+    visibility: hidden;
+    position: absolute;
+    width: auto;
+    height: 400px;
+    z-index: 0;
+    margin-top: 220px;
+}
+
+.arrow {
+    width: 80px;
+    z-index: 0;
+}
+
+.register-with-us {    
+    background-color: #0074FF;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'sofia-pro';
+    width: 150px;
+    height: 40px;
+    margin-right: 105px;
+    margin-left: 25px;
+    z-index: 2;
+    outline: 0 !important;
+}
+
+.info-box-honeycomb {
+    display: flex; 
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.platform {
+    font-family: 'sofia-pro';
+    font-size: 24px;
+    font-weight: 600;
+    color:  #193E6C;
+    margin-top: 50px;
+}
+
+.honeycomb-img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.selling {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.get-started {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #193E6C;
+    margin-top: 50px;
+    font-family: 'sofia-pro';
+}
+
+.get-started-subheading {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #193E6C;
+    font-family: 'sofia-pro';
+}
+
+.inventory {
+    color: #193E6C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.inventory-subheading {
+    color: #193E6C;
+    font-size: 16px;
+    font-weight: 600;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.track {
+    color: #193E6C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.track-subheading {
+    color: #193E6C;
+    font-size: 16px;
+    font-weight: 600;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.honey-is-here {
+    text-align: center;
+    color: #193E6C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+    font-family: 'sofia-pro';
+}
+
+.honey-is-here-subheading {
+    text-align: center;
+    color: #193E6C;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'sofia-pro';
+    margin-bottom: 25px;
+    width: auto;
+    padding: 0px 20px 0px 20px;
+}
+
+
+.validate {
+    color: #193E6C;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'sofia-pro';
+}
+   
+ .validate-subheading {
+    color: #193E6C;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;  
+    font-family: 'sofia-pro'; 
+    width: auto;
+    padding: 10px;
+ }
+
+ .getting-started {
+    color: #193E6C;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'sofia-pro';
+    padding-top: 50px;
+}
+
+.enroll-now {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 130px;
+    height: 45px;
+    background-color: #0074FF;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'sofia-pro';
+    font-weight: 500;
+    border-radius: 22px;
+    border: none;
+    outline: 0 !important;
+}
+/* footer starts from here */
+.footer-box{
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* footer ends from here */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Old Css
+
+
+.header-btn{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .login-btn {
+     font-size: 14px;
+     font-family: 'sofia-pro';
+     font-weight: 500;
+     color: #193E6C;
+     background-color: #FFFFFF;
+     width: 120px;
+     height: 40px;
+     border-radius: 30px;
+     margin-right: 25px;  
+ }
+   
+ 
+ .shop-with-us {
+       background-color: #193E6C;
+       color: #FFFFFF;
+       font-size: 14px;
+       font-weight: 500;
+       width: 120px;
+       height: 40px;
+       border-radius: 30px;
+       text-align: center;
+       font-family: 'sofia-pro';
+ }
+ 
+   .honeycomb-subheading {
+       text-align: center;
+       color: #193E6C;
+       font-size: 14px;
+       font-weight: 500;
+       font-family: 'sofia-pro';
+   }
+
+ 
+   .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+
+
+ a:link, a:visited {
+    
+    color:#193E6C;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Sofia-Pro-Light';
+  }
+  
+   */
